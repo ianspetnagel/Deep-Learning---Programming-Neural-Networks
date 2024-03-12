@@ -1,0 +1,54 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f8765ce2-896d-47a3-ba03-989deee20008</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>FunctionApproxNNDirect.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>FunctionApproximationIanSp</Name>
+    <RootNamespace>FunctionApproximationIanSp</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|pytorch1x</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FunctionApproxAutoGrad.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FunctionApproximationIanSp.py" />
+    <Compile Include="FunctionApproxNN.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FunctionApproxNNDirect.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FunctionApproxPyTorch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|pytorch1x" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
