@@ -29,6 +29,25 @@ Sigmoid Function  - torch.nn.Sigmoid.
 
 <img width="752" alt="65" src="https://github.com/ianspetnagel/Deep-Learning-3-Linear-Network-Gradient-Descent/assets/62821052/71067a8e-d7ca-49c1-a1cd-c78c44c0e657">
 
+*Using Neural Network to do the Sine Wave Regression - FunctionApproxNN.py*
+
+<img width="716" alt="66" src="https://github.com/ianspetnagel/Deep-Learning-3-Linear-Network-Gradient-Descent/assets/62821052/8f93e24e-972f-48a9-b049-2b2078cd5660">
+
+*Full Regression of Sine function using a Neural Network - FunctionApproxNNDirect*
+
+<img width="767" alt="67" src="https://github.com/ianspetnagel/Deep-Learning-3-Linear-Network-Gradient-Descent/assets/62821052/e8cfe076-dc9f-4d13-81c2-4d2c7f325eca">
+
+*Torch.nn.ReLU()*
+
+<img width="740" alt="68" src="https://github.com/ianspetnagel/Deep-Learning-3-Linear-Network-Gradient-Descent/assets/62821052/47d5d818-f875-4029-85f7-37ac42c30dd0">
+
+
+*Torch.nn.Sigmoid()*
+
+<img width="768" alt="69" src="https://github.com/ianspetnagel/Deep-Learning-3-Linear-Network-Gradient-Descent/assets/62821052/65241443-3830-4bf7-8ee1-52a47c49c75a">
+
+
+
 
 
 
