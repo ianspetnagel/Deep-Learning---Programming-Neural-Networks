@@ -1,7 +1,8 @@
-This project was programming Neural Networks Using PyTorch.
+This project is some of the work I have done programming Neural Networks Using PyTorch.
 The mutiple .py files within the project all relate to different features of machine learning.
 
 I covered:
+
 Learning Regression, 
 Function Approximation with Auto Grad, 
 Using Neural Network to do the Sine Wave Regression, 
