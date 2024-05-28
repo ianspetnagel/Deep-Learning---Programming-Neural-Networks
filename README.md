@@ -1,5 +1,5 @@
 This project is some of the work I have done programming Neural Networks Using PyTorch.
-The mutiple .py files within the project all relate to different features of machine learning.
+There are mutiple .py files within the project and each relate to different features of machine learning and NNs.
 
 I covered:
 
